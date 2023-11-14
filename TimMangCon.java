@@ -26,8 +26,8 @@ public class TimMangCon {
 
             if (tong == S) {
                 // Tìm thấy mảng con có tổng bằng S
-                ketQua.add(batDau + 1); // Chỉ số bắt đầu (1-based indexing)
-                ketQua.add(i + 1);       // Chỉ số kết thúc (1-based indexing)
+                ketQua.add(batDau + 1); 
+                ketQua.add(i + 1);      
                 return ketQua;
             }
         }
